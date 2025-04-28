@@ -35,6 +35,9 @@ nav ul li a {
 }
 
 /* shared style */
+.secondary-bg{
+    background-color:#FBFFF3 ;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -89,4 +92,23 @@ font-size: 18px;
 .banner-profile-pic{
     width: 584px;
     height:676px ;
+}
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 140px;
+    text-align: center;
+    margin-top: 70px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
